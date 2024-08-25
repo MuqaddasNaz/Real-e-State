@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "823943682110",
+    "firebase_url": "https://real-estate-b2692-default-rtdb.firebaseio.com",
+    "project_id": "real-estate-b2692",
+    "storage_bucket": "real-estate-b2692.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823943682110:android:ac971e1edf00bb56fc996f",
+        "android_client_info": {
+          "package_name": "com.example.realestateadminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823943682110-5tgfdc2qh17vi0ookuqg6k3nm9k5l7fl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.realestateadminapp",
+            "certificate_hash": "38080afff31202004477705281d7ec344e5ba0c7"
+          }
+        },
+        {
+          "client_id": "823943682110-732lmrgeo7e9iirnfevdds70blbqsdoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnzMPEb-l1TchtheHcZVTa_8kngJdkkCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823943682110-732lmrgeo7e9iirnfevdds70blbqsdoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823943682110:android:50ffcbcec0c507b9fc996f",
+        "android_client_info": {
+          "package_name": "com.gulfrealestates.realestate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823943682110-prre3m1bqdl0lq67fn47okln2ft0nkao.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gulfrealestates.realestate",
+            "certificate_hash": "38080afff31202004477705281d7ec344e5ba0c7"
+          }
+        },
+        {
+          "client_id": "823943682110-732lmrgeo7e9iirnfevdds70blbqsdoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnzMPEb-l1TchtheHcZVTa_8kngJdkkCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823943682110-732lmrgeo7e9iirnfevdds70blbqsdoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

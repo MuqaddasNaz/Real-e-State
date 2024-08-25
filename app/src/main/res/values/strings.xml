@@ -1,0 +1,188 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GRE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="btn_like_desc">Like Button</string>
+
+    <string name="default_web_client_id">AIzaSyClwaN3xd9Q_fACKFdHks_Y1-N_4VXSLoA</string>
+
+
+    <string-array name="phases">
+        <item>Select your account type</item>
+        <item>Individual</item>
+        <item>Agency</item>
+    </string-array>
+
+    <string-array name="spinner_all_type_items">
+        <item>Types</item>
+        <item>Commercial</item>
+        <item>Residential</item>
+    </string-array>
+
+    <string-array name="spinner_all_status_items">
+        <item>Status</item>
+        <item>For Rent</item>
+        <item>For Sale</item>
+        <item>New Construction</item>
+        <item>New Listing</item>
+        <item>Resale</item>
+    </string-array>
+
+    <string-array name="spinner_city_items">
+        <item>Select Us City</item>
+        <item>UAE</item>
+        <item> Abu Dhabi</item>
+        <item> Ajman</item>
+        <item> Alain</item>
+        <item> Dubai</item>
+        <item> Fujera</item>
+        <item> Ras Al Kheima</item>
+        <item> Sharjah</item>
+        <item>Pakistan</item>
+        <item> Karachi</item>
+        <item> Lahore</item>
+        <item> Faisalabad</item>
+        <item> Rawalpindi</item>
+        <item> Islamabad</item>
+        <item> Other</item>
+    </string-array>
+
+    <string-array name="spinner_area_items">
+        <item>Area</item>
+        <item>Lahore</item>
+        <item>-Allama Iqbal Town</item>
+        <item>-Bahria Town</item>
+        <item>-Data Ganj Bakhsh town</item>
+    </string-array>
+
+    <string-array name="spinner_min.price_items">
+        <item>Min.Price</item>
+        <item>Any</item>
+        <item>$1,000</item>
+        <item>$5,000</item>
+        <item>$10,000</item>
+        <item>$50,000</item>
+        <item>$100,000</item>
+        <item>$200,000</item>
+        <item>$300,000</item>
+        <item>$400,000</item>
+        <item>$500,000</item>
+        <item>$600,000</item>
+        <item>$700,000</item>
+        <item>$800,000</item>
+        <item>$900,000</item>
+    </string-array>
+
+    <string-array name="spinner_max.price_items">
+        <item>Max.Price</item>
+        <item>Any</item>
+        <item>$5,000</item>
+        <item>$10,000</item>
+        <item>$50,000</item>
+        <item>$100,000</item>
+        <item>$200,000</item>
+        <item>$300,000</item>
+        <item>$400,000</item>
+        <item>$500,000</item>
+        <item>$600,000</item>
+        <item>$700,000</item>
+        <item>$800,000</item>
+        <item>$900,000</item>
+    </string-array>
+
+    <string-array name="spinner_bedrooms_items">
+        <item>Bedrooms</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>Any</item>
+    </string-array>
+
+    <string-array name="spinner_bathrooms_items">
+        <item>Bathrooms</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>Any</item>
+    </string-array>
+
+    <string-array name="spinner_property_title_items">
+        <item>Purpose</item>
+        <item>For Rent</item>
+        <item>For Sale</item>
+    </string-array>
+
+    <string-array name="spinner_select_property_type_items">
+        <item>Select Property</item>
+        <item>House</item>
+        <item>Flat</item>
+        <item>Upper Portion</item>
+        <item>Lower Portion</item>
+        <item>Farm House</item>
+        <item>Room</item>
+        <item>Penthouse</item>
+        <item>Residential Plot</item>
+        <item>Commercial Plot</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="spinner_cities_items">
+        <item>Select City</item>
+        <item>Karachi</item>
+        <item>Lahore</item>
+        <item>Faisalabad</item>
+        <item>Rawalpindi</item>
+        <item>Islamabad</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="spinner_area_size">
+        <item>Area Size</item>
+        <item>Sq.Ft.</item>
+        <item>Sq.M.</item>
+        <item>Sq.Yd</item>
+        <item>Marla</item>
+        <item>Kanal</item>
+    </string-array>
+
+    <string-array name="spinner_action">
+        <item>Action</item>
+        <item>View</item>
+        <item>Delete</item>
+    </string-array>
+
+
+    <string-array name="rating">
+        <item>Select</item>
+        <item>1 Star-Poor</item>
+        <item>2 Star-Fair</item>
+        <item>3 Star-Average</item>
+        <item>4 Star-Good</item>
+        <item>5 Star-Excellent</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Select your category</item>
+        <item>Commercial</item>
+        <item>Residential</item>
+    </string-array>
+
+
+    <item name="btnSearchAgency" type="id" />
+    <item name="tvViewListing" type="id" />
+</resources>

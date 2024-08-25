@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SENDTO" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/real_estate2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/real_estate2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RealEstate"
+        tools:targetApi="31">
+        <activity
+            android:name="com.gulfrealestates.realestate.Activities.Main.AboutUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.ViewListing1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.AgentsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.gulfrealestates.realestate.Activities.Main.AddAgentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.ViewListingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.AgenciesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.ServicesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.BookHotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.BookFlatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.BookHostelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.PropertyDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.gulfrealestates.realestate.Activities.Main.AddPropertyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.CommercialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.ResidentialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.StartUp.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.StartUp.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.StartUp.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
